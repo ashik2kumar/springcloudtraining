@@ -1,4 +1,9 @@
+management:
+  endpoints:
+    web:
+      expose:
+       beans,metrics,refresh,hystrix.stream
 test:
-  message: Siva
+  message: Ashik
 server:
-  port: 0
+  port: 4001

@@ -4,6 +4,6 @@ management:
       expose:
        beans,metrics,refresh,hystrix.stream
 test:
-  message: Ashik
+  message: Kumar
 server:
   port: 4001
